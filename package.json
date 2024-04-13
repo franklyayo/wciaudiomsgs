@@ -6,12 +6,13 @@
   "type": "module",
   "scripts": {
     "start": "node server/server.js",
-    "build": "npm install && cd client && npm install && npm run build"	
+    "build": "npm install && cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1599.0",
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
